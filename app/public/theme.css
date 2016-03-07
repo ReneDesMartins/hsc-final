@@ -1,0 +1,79 @@
+@font-face {
+    font-family: "headers";
+    src: url("fonts/BebasNeue.ttf")
+}
+
+@font-face {
+    font-family: "paragraphs";
+    src: url("fonts/Default.ttf")
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+code {
+    font-family: consolas;
+}
+
+body {
+    font-family: helvetica;
+    font-weight: 400;
+    font-size: 15px;
+    text-align: justify;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+h1, h2, h3 {
+    font-family: headers;
+    border-bottom: 3px solid #444444;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    border-top: 3px solid #444444;
+    padding-top: 0.5%;
+    padding-bottom: 0.25%;
+}
+
+/*Headers' individual formatting*/
+
+h1 {
+    border-top: 3px solid #444444;
+    font-size: 50px;
+    padding-top: 0.5%;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 20px;
+    padding-bottom: 0.3%;
+}
+
+/*Things */
+
+#bar {
+  background-color: grey;
+  margin-bottom: 1%;
+  height: 7.5%;
+  text-align: center;
+  padding-top: 1.5%;
+}
+
+#bar #links {
+  font-family: headers;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+#bar #links a {
+  margin-left: 2.5%;
+}
+
+#datebar {
+  background-color: grey;
+  padding: 0.5% 0.5% 0.5% 0.5%;
+}
