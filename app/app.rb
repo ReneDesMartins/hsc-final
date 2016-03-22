@@ -1,3 +1,7 @@
+# TODO:
+# - [] Make sure that comic functionality works
+# - [] Add the navigation bar
+
 require "rubygems"
 require "sinatra"
 require "digest" # For hashing the password
@@ -9,6 +13,12 @@ def password_check(password)
 	else
 		return false
 	end
+end
+
+get "/" do
+  @image = "images/comic/9-10-1.png"
+  @comics = true
+  erb :comics
 end
 
 get "/admin" do

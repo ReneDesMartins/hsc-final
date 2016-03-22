@@ -67,6 +67,7 @@ h3 {
   font-family: headers;
   font-size: 30px;
   text-decoration: none;
+  margin: auto;
 }
 
 #bar #links a {
@@ -75,5 +76,19 @@ h3 {
 
 #datebar {
   background-color: grey;
-  padding: 0.5% 0.5% 0.5% 0.5%;
+  padding: 0.01%;
+  border: 5px solid darkgrey;
+}
+
+#datebar p {
+  padding-left: 0.5%;
+}
+
+#authorComment p {
+  padding-left: 0.5%;
+}
+
+img {
+  display: block;
+  margin: 1% auto;
 }

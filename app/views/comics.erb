@@ -1,7 +1,20 @@
-<img data-toggle="tooltip" title="Hey, you know about this thing too!" src=<%= @image %>>
+<script>
+  $(document).ready(function(){
+      $('[data-toggle="tooltip"]').tooltip();
+  });
+</script>
+<img src=<%= @image %> data-toggle="tooltip">
+<div id="bar">
+  <div id="links">
+    <a><< Previous Point</a>
+    <a>< Previous</a>
+    <a>Next ></a>
+    <a>Next Point >></a>
+  </div>
+</div>
 <div id="datebar">
-  25th of January 2016
+  <p>25th of January 2016</p>
 </div>
 <div id="authorComment">
-  This is a sample author comment.
+  <p>This is a sample author comment.</p>
 </div>
